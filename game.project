@@ -1,0 +1,23 @@
+[project]
+title = Kai-Ads
+version = 1.0
+
+[input]
+game_binding = /input/game.input_bindingc
+use_accelerometer = 0
+
+[display]
+width = 240
+height = 320
+update_frequency = 30
+vsync = 0
+
+[bootstrap]
+main_collection = /example/example.collectionc
+
+[library]
+include_dirs = kaiads
+
+[script]
+shared_state = 1
+
