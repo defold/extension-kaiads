@@ -1,4 +1,4 @@
-local json = require "example.rxijson"
+local json = require "kaiads.json"
 
 local function on_kaiads_event(self, event, code)
 	if event == kaiads.PRELOAD_OK then
