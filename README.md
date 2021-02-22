@@ -1,5 +1,5 @@
 # KaiAds for Defold
-This is an integration of the KaiAds SDK with the Defold game engine. The integration is created a Defold native extension.
+This is an integration of the KaiAds SDK with the Defold game engine. The integration is created as a Defold native extension.
 
 ## Installation
 To use KaiAds in your Defold project, add the following URL to your game.project dependencies:
