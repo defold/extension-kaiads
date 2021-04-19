@@ -4,7 +4,7 @@ This is an integration of the KaiAds SDK with the Defold game engine. The integr
 ## Installation
 To use KaiAds in your Defold project, add the following URL to your game.project dependencies:
 
-https://github.com/defold/extension-kaiads/archive/master.zip
+https://github.com/defold/extension-kaiads/archive/main.zip
 
 We recommend using a link to a zip file of [a specific release](https://github.com/refold/extension-kaiads/releases).
 
