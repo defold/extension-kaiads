@@ -18,7 +18,13 @@ var KaiAdsLibrary = {
     },
 
     KaiAds_PlatformPreload: function(cpublisher, cconfigjson, callback) {
-         if (KaiAdsState.ad != null) {
+        if (typeof getKaiAd == "undefined") {
+            var err = "getKaiAd() is not defined";
+            console.error("kaiads onerror", err);
+            {{{ makeDynCall('vii', 'callback') }}} (KaiAdsResultCodes.PRELOAD_ERROR, err);
+            return;
+        }
+        if (KaiAdsState.ad != null) {
             console.log("kaiads preload - ad already preloaded");
             {{{ makeDynCall('vii', 'callback') }}} (KaiAdsResultCodes.PRELOAD_OK, -1);
             return;
