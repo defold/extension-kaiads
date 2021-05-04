@@ -11,7 +11,7 @@ We recommend using a link to a zip file of [a specific release](https://github.c
 ## Usage
 The following functions are available from Lua:
 
-* `kaiads.init(publisher)` - Initialize kaiads 
+* `kaiads.init(publisher)` - Initialize KaiAds with your publisher id
 * `kaiads.set_listener(fn)` - Callback function which will receive ad events
 * `kaiads.preload(configuration)` - Preload an ad using the provided JSON encoded Lua table with ad configuration values (see below)
 * `kaiads.show()` - Show the ad if it was successfully preloaded (event == kaiads.PRELOAD_OK)
