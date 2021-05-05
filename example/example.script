@@ -18,10 +18,10 @@ end
 function init(self)
 	if kaiads then
 		kaiads.set_listener(on_kaiads_event)
-		kaiads.init("2b30c65e-efde-4930-990e-ded207899766")
+		kaiads.init("7a70dd17-d05a-4765-a5fb-324360c785fe")
 		local fullscreen_config = {
-			app = "mygame",
-			slot = "gameover",
+			app = "kaiadsexample",
+			slot = "exampleslot",
 		}
 		kaiads.preload(json.encode(fullscreen_config))
 	end
