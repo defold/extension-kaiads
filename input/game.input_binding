@@ -23,12 +23,8 @@ key_trigger {
   action: "up"
 }
 key_trigger {
-  input: KEY_SPACE
-  action: "jump"
-}
-key_trigger {
   input: KEY_5
-  action: "jump"
+  action: "enter"
 }
 key_trigger {
   input: KEY_UP
@@ -64,5 +60,5 @@ key_trigger {
 }
 key_trigger {
   input: KEY_ENTER
-  action: "jump"
+  action: "enter"
 }
