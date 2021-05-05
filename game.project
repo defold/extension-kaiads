@@ -1,6 +1,7 @@
 [project]
-title = Kai-Ads
+title = DefoldKaiAds
 version = 1.0
+bundle_resources = bundle
 
 [input]
 game_binding = /input/game.input_bindingc

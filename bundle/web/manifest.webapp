@@ -1,0 +1,28 @@
+{
+    "default_locale": "en-US",
+    "description": "KaiAds example.",
+    "developer": {
+        "name": "Defold",
+        "url": "https://www.defold.com"
+    },
+    "fullscreen": "true",
+    "icons": {
+        "112": "/icons/icon_112.png",
+        "56": "/icons/icon_56.png"
+    },
+    "launch_path": "/index.html",
+    "locales": {
+        "en-US": {
+            "description": "KaiAds example.",
+            "name": "DefoldKaiAds",
+            "subtitle": ""
+        }
+    },
+    "name": "DefoldKaiAds",
+    "precompile": [
+        "DefoldKaiAds_asmjs.js",
+        "dmloader.js"
+    ],
+    "type": "web",
+    "version": "1.0.0"
+}
