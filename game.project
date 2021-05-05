@@ -22,3 +22,8 @@ include_dirs = kaiads
 [script]
 shared_state = 1
 
+[html5]
+show_fullscreen_button = 0
+show_made_with_defold = 0
+scale_mode = fit
+
