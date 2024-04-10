@@ -84,4 +84,4 @@ var KaiAdsLibrary = {
 
 autoAddDeps(KaiAdsLibrary, '$KaiAdsState');
 autoAddDeps(KaiAdsLibrary, '$KaiAdsResultCodes');
-mergeInto(LibraryManager.library, KaiAdsLibrary);
+addToLibrary(KaiAdsLibrary);
